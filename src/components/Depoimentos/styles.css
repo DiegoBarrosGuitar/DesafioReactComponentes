@@ -1,6 +1,6 @@
 .depoimentos {
     width: 100%;
-    height: 755px;
+    height: 1120px;
     margin: auto;
     padding: 10px;
     background-color: var(--color-bg-tertiary);
@@ -10,7 +10,7 @@
 }
 
 .depoimentos h3 {
-    font-size: 32px;
+    font-size: 20px;
     margin: auto;
     text-align: center;
     padding: 25px;
@@ -40,6 +40,13 @@
     .depoimentos {
         width: 100%;
         height: 755px;
+    }
+}
+
+
+@media (min-width: 320px) {
+    .depoimentos h3 {
+        font-size: 32px;
     }
 }
 
