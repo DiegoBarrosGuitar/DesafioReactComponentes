@@ -8,8 +8,7 @@
 
   --color-font-primary: #FFFFFF;
   --color-font-secondary: #5E5E5E;
-
-  --color-font-placeholder: #3C9AF0;
+  --color-font-terciary: #3C9AF0;
 }
 
 * {
@@ -31,14 +30,13 @@ body {
 }
 
 main {
-  padding: 0 20px;
+
   width: 100%;
-  max-width: 980px;
-  
 }
 
 .car-top-container {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  
 }

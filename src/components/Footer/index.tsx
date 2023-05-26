@@ -3,8 +3,8 @@ import "./styles.css"
 export default function Footer() {
     return (
         <div className="footer">
-        
-            <h3>Audi TT</h3>
+        <p>@dscarrostop</p>
+        <p><i>Rua da Pipoca, 150</i></p>
         </div>
     );
 }

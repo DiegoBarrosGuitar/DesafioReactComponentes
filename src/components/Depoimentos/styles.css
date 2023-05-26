@@ -1,15 +1,51 @@
-.depoimentos{
+.depoimentos {
     width: 100%;
-    height: 935px;
+    height: 755px;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--color-bg-tertiary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos h3 {
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    color: var(--color-font-secondary);
+}
+
+.depoimentos p {
+    width: 280px;
+    height: 146px;
+    font-size: 16px;
+    color: var(--color-font-terciary);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-bg-tertiary);
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-bg-secondary);
+    margin: auto;
     margin-bottom: 25px;
 }
 
-.depoimentos h3{
-    font: 16px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+
+
+@media (min-width: 320px) {
+    .depoimentos {
+        width: 100%;
+        height: 755px;
+    }
+}
+
+@media (min-width: 320px) {
+    .depoimentos p {
+        width: 980px;
+        height: 74px;
+    }
 }
