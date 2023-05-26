@@ -1,10 +1,10 @@
-
-import './App.css'
+import Catalog from "./routes/Catalog"
 
 export default function App() {
-  return(
-    <h1>DSCarros Top</h1>
-  );
+  
+  return (
+    <>
+     <Catalog/>
+    </>
+  )
 }
-
-

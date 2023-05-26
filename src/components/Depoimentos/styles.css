@@ -1,0 +1,15 @@
+.depoimentos{
+    width: 100%;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg-tertiary);
+    margin-bottom: 25px;
+}
+
+.depoimentos h3{
+    font: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
