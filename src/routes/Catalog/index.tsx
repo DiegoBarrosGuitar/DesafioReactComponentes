@@ -16,14 +16,12 @@ export default function Catalog() {
             <CatalogCard />
           </div>
         </section>
-
         <section>
           <div>
             <Depoimentos />
           </div>
         </section>
       </main>
-
       <footer>
         <Footer />
       </footer>

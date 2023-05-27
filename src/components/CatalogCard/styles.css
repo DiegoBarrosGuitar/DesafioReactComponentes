@@ -32,14 +32,12 @@
     }
 }
 
-
 @media (min-width: 320px) {
     .card img {
         width: 391px;
         height: 292px;
     }
 }
-
 
 @media (min-width: 320px) {
     .card h3 {
